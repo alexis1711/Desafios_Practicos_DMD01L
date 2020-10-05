@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "ProyectoMultidimensional1", "ProyectoMultidimensional1\ProyectoMultidimensional1.dwproj", "{E6C6B9A9-0222-4F06-9572-04C26583DECE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6C6B9A9-0222-4F06-9572-04C26583DECE}.Development|Default.ActiveCfg = Development
+		{E6C6B9A9-0222-4F06-9572-04C26583DECE}.Development|Default.Build.0 = Development
+		{E6C6B9A9-0222-4F06-9572-04C26583DECE}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {169772B1-8F36-4D6D-BD12-6966D67CCC57}
+	EndGlobalSection
+EndGlobal

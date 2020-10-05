@@ -1,0 +1,312 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="acb03392-ac0b-4db6-8cd3-1ab17c6cb216" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Hondura1</ID>
+  <Name>Hondura1</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="e1615651-c994-43ba-9c27-7830be2dc971">
+      <ID>Dim Comercio y Recreación</ID>
+      <Name>Dim Comercio y Recreación</Name>
+      <DimensionID>Dim Comercio y Recreación</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e8c98fb5-d8e7-4bed-92c5-4d8b77c4f2e3">
+          <AttributeID>Comercio Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="b4ab9f3a-0a57-489a-8daf-ae765b8a4404">
+      <ID>Dim Tiendas</ID>
+      <Name>Dim Tiendas</Name>
+      <DimensionID>Dim Tiendas</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="703cdde9-b9ea-4334-8ab9-f46d573c0365">
+          <AttributeID>Tiendas Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="f6f18802-d2c2-4ed6-b291-385f2de2950d">
+      <ID>Dim Lugar De Residencia</ID>
+      <Name>Dim Lugar De Residencia</Name>
+      <DimensionID>Dim Lugar De Residencia</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e8cec585-2ffe-4cba-a5e0-1fec088987a0">
+          <AttributeID>Residencia Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="0d8e5e98-f0c4-41bc-b5cb-23f3d3e7c4e7">
+      <ID>Dim Parques y Espacios</ID>
+      <Name>Dim Parques y Espacios</Name>
+      <DimensionID>Dim Parques y Espacios</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="95d166aa-85b9-4b1c-b13b-a4ecaa3019d0">
+          <AttributeID>Parque Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="e8d6b222-b4ca-4391-96f8-0889cf1277de">
+      <ID>Dim Tránsito</ID>
+      <Name>Dim Tránsito</Name>
+      <DimensionID>Dim Tránsito</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="921e585d-e604-4808-8953-2fc618e11a8d">
+          <AttributeID>Transito Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="06febb28-1773-416d-a5aa-21d5651b9170">
+      <ID>Dim Lugares De Trabajo</ID>
+      <Name>Dim Lugares De Trabajo</Name>
+      <DimensionID>Dim Lugares De Trabajo</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="fde5b452-d1c9-471d-ae95-974d75187bd5">
+          <AttributeID>Lugares Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="6099d431-cb40-46fe-9cae-509ac61a68eb">
+      <ID>Honduras</ID>
+      <Name>Honduras</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="40955f79-befa-4ad9-af44-b1ccf895f771">
+          <ID>Country Region</ID>
+          <Name>Country Region</Name>
+          <Source dwd:design-time-name="f44cf86c-105a-4d06-954d-086cfddc6c4c">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6442d136-2fc5-4041-866e-84f22d398e01">
+              <TableID>dbo_honduras</TableID>
+              <ColumnID>country_region</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="cc78da02-0463-4538-8414-07cdf5a877f4">
+          <ID>Parque2 Id</ID>
+          <Name>Parque2 Id</Name>
+          <Source dwd:design-time-name="9305f5bf-4bef-4b0e-a2a4-74c8cdd97991">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d47fadbc-586d-49dd-b4fb-474a059bd66f">
+              <TableID>dbo_honduras</TableID>
+              <ColumnID>parque2_id</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="bcbebb4f-0cdb-4219-8b02-6c525ed6b528">
+          <ID>Tiendas2 Id</ID>
+          <Name>Tiendas2 Id</Name>
+          <Source dwd:design-time-name="6c8adae0-d3e3-4ce2-890b-17c7fc0a2da5">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="83791578-5fbc-4c43-931d-26b36ad5ca61">
+              <TableID>dbo_honduras</TableID>
+              <ColumnID>tiendas2_id</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4fa0922b-00d7-428e-8639-52deb53efb68">
+          <ID>Comercio2 Id</ID>
+          <Name>Comercio2 Id</Name>
+          <Source dwd:design-time-name="95b7f84f-6dfd-496d-bbaf-8c963703f286">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="aba45de1-6a3e-4c94-a2ca-9bab10362db9">
+              <TableID>dbo_honduras</TableID>
+              <ColumnID>comercio2_id</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8afa9923-f8a8-4eed-abc9-59af125fb20b">
+          <ID>Transito2 Id</ID>
+          <Name>Transito2 Id</Name>
+          <Source dwd:design-time-name="b82c938e-27e9-4952-9c25-bebf20fb9ce7">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3193b736-e16a-47dc-bd87-f5c6ef69fbe5">
+              <TableID>dbo_honduras</TableID>
+              <ColumnID>transito2_id</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="bb54333f-a521-483f-9fec-a9df76af91fe">
+          <ID>Lugares2 Id</ID>
+          <Name>Lugares2 Id</Name>
+          <Source dwd:design-time-name="0d28fe94-12cf-4af5-a68c-512d125b06d2">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="79a033a1-791d-461d-a180-97863f382419">
+              <TableID>dbo_honduras</TableID>
+              <ColumnID>lugares2_id</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="06d2dd1e-a157-4aed-a40a-6506ba21808b">
+          <ID>Residencia2 Id</ID>
+          <Name>Residencia2 Id</Name>
+          <Source dwd:design-time-name="4964cc28-4ccd-4873-8725-886aece9a865">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b31fb4cb-aa63-4e92-911f-3741309846c5">
+              <TableID>dbo_honduras</TableID>
+              <ColumnID>residencia2_id</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b5393a2d-22d3-499c-a5db-8abbd3b3c7a8">
+          <CubeDimensionID>Dim Comercio y Recreación</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="87b7b2f5-c1e4-4570-8753-8e6bb9680966">
+              <AttributeID>Comercio Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f79be46f-587d-43b7-a18c-a1576986c90b">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c664e36c-5374-40a5-8044-06b2d8cecc14">
+                    <TableID>dbo_honduras</TableID>
+                    <ColumnID>comercio_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="79d0304c-f815-43cb-9d34-5bb7b04be0e4">
+          <CubeDimensionID>Dim Tiendas</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="59fe24e0-3f1b-423d-9c44-ebc7d24adce7">
+              <AttributeID>Tiendas Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="185ba8ac-bab1-4c00-9024-6ec9895beb83">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="46bf810f-8188-4e35-b47b-2accb25a3354">
+                    <TableID>dbo_honduras</TableID>
+                    <ColumnID>tiendas_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f94426d4-c685-46b1-b18b-5f28e9418336">
+          <CubeDimensionID>Dim Lugar De Residencia</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="29c95a5e-940f-49cb-bdb3-fc2a6297d49b">
+              <AttributeID>Residencia Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6d98ea3c-d19a-43c0-99c0-21935a3a9aa7">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9db34d42-0613-48e2-a0b8-b00da4330915">
+                    <TableID>dbo_honduras</TableID>
+                    <ColumnID>residencia_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7b0fc2cc-438f-4d3e-a40e-d687469eddee">
+          <CubeDimensionID>Dim Parques y Espacios</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ac099b56-bf51-4d14-a824-51b1483c2540">
+              <AttributeID>Parque Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="07183be1-fa69-466c-a2b9-02611cb01656">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="230b559f-56b4-4b41-aa1d-a55cb1287650">
+                    <TableID>dbo_honduras</TableID>
+                    <ColumnID>parque_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="03e93d4a-9c56-4468-b3d8-3b000e0ff95e">
+          <CubeDimensionID>Dim Tránsito</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b559fced-a132-4617-82f7-09207ce6088b">
+              <AttributeID>Transito Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ffbe22d4-b936-42d2-bc88-9cd3c90a35c5">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a6ea245b-9551-421d-9c6c-b101c905ad41">
+                    <TableID>dbo_honduras</TableID>
+                    <ColumnID>transito_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="89e1922f-a521-498b-82bb-b0bc2f6b0151">
+          <CubeDimensionID>Dim Lugares De Trabajo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="df53f49a-2ee0-4811-9d9a-f904ee32e9e7">
+              <AttributeID>Lugares Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="2973e2dd-1b7c-4375-9bed-90da3682b1df">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1f8fcaca-d752-4889-9b74-7d37a70fe3b0">
+                    <TableID>dbo_honduras</TableID>
+                    <ColumnID>lugares_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="4d4a3322-8dbc-43a7-aadc-209dc916dc97">
+    <DataSourceViewID>Hondura1</DataSourceViewID>
+  </Source>
+</Cube>

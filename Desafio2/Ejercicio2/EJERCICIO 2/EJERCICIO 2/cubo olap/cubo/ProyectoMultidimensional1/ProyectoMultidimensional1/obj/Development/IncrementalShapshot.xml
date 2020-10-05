@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>ProyectoMultidimensional1</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>f/p6suhjzVUXYydyVSNcgtqFJ5M=4/10/2020 22:24:304/10/2020 22:24:30</TimeStamp>
+        <ID>
+          <String>Hondura1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>SMb3dMUOGZLIvQ9NdKCewhamBuU=4/10/2020 22:26:354/10/2020 22:26:33</TimeStamp>
+        <ID>
+          <String>Hondura1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>t/zU/Xg5UlRMLk2CNiiI3ikDAhY=4/10/2020 22:30:154/10/2020 22:30:14</TimeStamp>
+        <ID>
+          <String>Dim Comercio y Recreación</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>U9DPb6xxtNfa4GYJenTebB6TeFQ=4/10/2020 22:30:164/10/2020 22:30:15</TimeStamp>
+        <ID>
+          <String>Dim Tiendas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>WCIWYQeScmj1L1Q0+S9nDHn4Uh4=4/10/2020 22:30:164/10/2020 22:30:15</TimeStamp>
+        <ID>
+          <String>Dim Lugar De Residencia</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>h4mjDjUlzPuXMTkSWRWCcd4AGRE=4/10/2020 22:30:164/10/2020 22:30:15</TimeStamp>
+        <ID>
+          <String>Dim Parques y Espacios</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>yvTdnkRHuMUzIt4xbQckhSn9dQI=4/10/2020 22:30:164/10/2020 22:30:15</TimeStamp>
+        <ID>
+          <String>Dim Tránsito</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>CJfNJKYNVpHfm+cPG57ieT6lS08=4/10/2020 22:30:164/10/2020 22:30:15</TimeStamp>
+        <ID>
+          <String>Dim Lugares De Trabajo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>d3/tBA6cdG177MH+fqMJhob3pqY=4/10/2020 22:30:164/10/2020 22:30:14QzS2I10Gr8O07gH7hCdUS9H7HfM=4/10/2020 22:30:154/10/2020 22:30:14</TimeStamp>
+        <ID>
+          <String>Hondura1</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>5fWPqEgc/UnD3lPKTOi1AmESD0k=4/10/2020 22:18:024/10/2020 22:18:01</TimeStamp>
+      <ID>
+        <String>ProyectoMultidimensional1</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2020-10-05T04:31:00.343333Z</LastDeployed>
+</DeploymentSnapshot>
